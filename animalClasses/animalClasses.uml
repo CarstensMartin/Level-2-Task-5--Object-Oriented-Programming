@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_5SJuYIghEey4lMkczAkuBw" name="animalClasses">
+    <eAnnotations xmi:id="_Tgcx0IgjEey4lMkczAkuBw" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_Tgd_8IgjEey4lMkczAkuBw" source="codegen">
+        <details xmi:id="_Tgd_8YgjEey4lMkczAkuBw" key="codegenDirectory" value="/animalClasses/src"/>
+        <details xmi:id="_TygyMIgjEey4lMkczAkuBw" key="AssociatedSourceCode" value="/animalClasses/src/animalClasses/Cat.java;2205734380/1;/animalClasses/src/animalClasses/Dog.java;34243746/1;/animalClasses/src/animalClasses/School.java;727826184/1;"/>
+      </contents>
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_EIjHgImTEeyrh-wgrUhO3Q" source="preferences">
+        <contents xmi:type="ecore:EAnnotation" xmi:id="_EIjukImTEeyrh-wgrUhO3Q" source="com.yattasolutions.codegen.reverse">
+          <details xmi:id="_EIkVoImTEeyrh-wgrUhO3Q" key="com.yattasolutions.codegen.reverse.roundtrip.ReverseEngineerNewFiles" value="true"/>
+          <details xmi:id="_EIkVoYmTEeyrh-wgrUhO3Q" key="com.yattasolutions.codegen.reverse.roundtrip.RemoveDeletedFiles" value="true"/>
+          <details xmi:id="_EIkVoomTEeyrh-wgrUhO3Q" key="com.yattasolutions.codegen.reverse.roundtrip.ReverseEngineerChangedFiles" value="true"/>
+        </contents>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_TdHxAIgjEey4lMkczAkuBw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_TdfkcIgjEey4lMkczAkuBw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_TdgLgIgjEey4lMkczAkuBw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_TdgykIgjEey4lMkczAkuBw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_TdgykYgjEey4lMkczAkuBw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_TdhZoIgjEey4lMkczAkuBw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_TdhZoYgjEey4lMkczAkuBw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_TdiAsIgjEey4lMkczAkuBw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_Tdp8gIgjEey4lMkczAkuBw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_TefqAIgjEey4lMkczAkuBw" name="animalClasses">
+      <packagedElement xmi:type="uml:Class" xmi:id="_H9_dIImVEeyw1qrEduezjA" name="Cat">
+        <ownedAttribute xmi:id="_H-X3oImVEeyw1qrEduezjA" name="name" visibility="package">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_H-biAImVEeyw1qrEduezjA" name="typeOfCat" visibility="package">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_H-gagImVEeyw1qrEduezjA" name="coatColor" visibility="package">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_H-hooImVEeyw1qrEduezjA" name="eyeColor" visibility="package">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_H-i2wImVEeyw1qrEduezjA" name="lifeSpan" visibility="package">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_H-jd0YmVEeyw1qrEduezjA" name="owner" visibility="package">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_H-zVcImVEeyw1qrEduezjA" name="Cat" specification="_H-DHgImVEeyw1qrEduezjA">
+          <ownedParameter xmi:id="_H-zVcYmVEeyw1qrEduezjA" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_H-zVcomVEeyw1qrEduezjA" name="typeOfCat">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_H-zVc4mVEeyw1qrEduezjA" name="coatColor">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_H-zVdImVEeyw1qrEduezjA" name="eyeColor">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_H-zVdYmVEeyw1qrEduezjA" name="lifeSpan">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_H-zVdomVEeyw1qrEduezjA" name="owner">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_H-zVd4mVEeyw1qrEduezjA" type="_H9_dIImVEeyw1qrEduezjA" direction="return"/>
+          <language>java</language>
+          <body>this.name = name;&#xD;
+		this.typeOfCat = typeOfCat;&#xD;
+		this.coatColor = coatColor;&#xD;
+		this.eyeColor = eyeColor;&#xD;
+		this.lifeSpan = lifeSpan;&#xD;
+		this.owner = owner;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_H-9GcImVEeyw1qrEduezjA" name="toString" specification="_H-E8sImVEeyw1qrEduezjA">
+          <ownedParameter xmi:id="_H-9GcYmVEeyw1qrEduezjA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>String output = &quot;Name: &quot; + name;&#xD;
+		output += &quot;\nBreed:&quot; + typeOfCat;&#xD;
+		output += &quot;\nCoat Color:&quot; + coatColor;&#xD;
+		output += &quot;\nEye Color:&quot; + eyeColor;&#xD;
+		output += &quot;\nLife Expectancy:&quot; + lifeSpan;&#xD;
+		output += &quot;\nOwner:&quot; + owner;&#xD;
+&#xD;
+		return output;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_H-DHgImVEeyw1qrEduezjA" name="Cat" method="_H-zVcImVEeyw1qrEduezjA">
+          <eAnnotations xmi:id="_H-EVoYmVEeyw1qrEduezjA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_H-EVoomVEeyw1qrEduezjA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_H-DHgYmVEeyw1qrEduezjA" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_H-DukImVEeyw1qrEduezjA" name="typeOfCat">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_H-DukYmVEeyw1qrEduezjA" name="coatColor">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_H-DukomVEeyw1qrEduezjA" name="eyeColor">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_H-Duk4mVEeyw1qrEduezjA" name="lifeSpan">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_H-EVoImVEeyw1qrEduezjA" name="owner">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_H-EVo4mVEeyw1qrEduezjA" type="_H9_dIImVEeyw1qrEduezjA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_H-E8sImVEeyw1qrEduezjA" name="toString" method="_H-9GcImVEeyw1qrEduezjA">
+          <ownedParameter xmi:id="_H-FjwImVEeyw1qrEduezjA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_H-Gx4ImVEeyw1qrEduezjA" name="Dog">
+        <ownedAttribute xmi:id="_H-lTAImVEeyw1qrEduezjA" name="name" visibility="package">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_H-oWUImVEeyw1qrEduezjA" name="typeOfDog" visibility="package">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_H-qLgImVEeyw1qrEduezjA" name="coatColor" visibility="package">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_H-rZoYmVEeyw1qrEduezjA" name="eyeColor" visibility="package">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_H-snwYmVEeyw1qrEduezjA" name="lifeSpan" visibility="package">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_H-t14ImVEeyw1qrEduezjA" name="age" visibility="package">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_H-9tgImVEeyw1qrEduezjA" name="Dog" specification="_H-J1MImVEeyw1qrEduezjA">
+          <ownedParameter xmi:id="_H-9tgYmVEeyw1qrEduezjA" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_H-9tgomVEeyw1qrEduezjA" name="typeOfDog">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_H-9tg4mVEeyw1qrEduezjA" name="coatColor">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_H-9thImVEeyw1qrEduezjA" name="eyeColor">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_H-9thYmVEeyw1qrEduezjA" name="lifeSpan">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_H-9thomVEeyw1qrEduezjA" name="age">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_H-9th4mVEeyw1qrEduezjA" type="_H-Gx4ImVEeyw1qrEduezjA" direction="return"/>
+          <language>java</language>
+          <body>this.name = name;&#xD;
+		this.typeOfDog = typeOfDog;&#xD;
+		this.coatColor = coatColor;&#xD;
+		this.eyeColor = eyeColor;&#xD;
+		this.lifeSpan = lifeSpan;&#xD;
+		this.age = age;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_H--UkImVEeyw1qrEduezjA" name="toString" specification="_H-LqYImVEeyw1qrEduezjA">
+          <ownedParameter xmi:id="_H--UkYmVEeyw1qrEduezjA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>String output = &quot;Name: &quot; + name;&#xD;
+		output += &quot;\nBreed:&quot; + typeOfDog;&#xD;
+		output += &quot;\nCoat Color:&quot; + coatColor;&#xD;
+		output += &quot;\nEye Color:&quot; + eyeColor;&#xD;
+		output += &quot;\nLife Expectancy:&quot; + lifeSpan;&#xD;
+		output += &quot;\nAge:&quot; + age;&#xD;
+&#xD;
+		return output;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_H-J1MImVEeyw1qrEduezjA" name="Dog" method="_H-9tgImVEeyw1qrEduezjA">
+          <eAnnotations xmi:id="_H-LDUImVEeyw1qrEduezjA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_H-LDUYmVEeyw1qrEduezjA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_H-J1MYmVEeyw1qrEduezjA" name="name">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_H-KcQImVEeyw1qrEduezjA" name="typeOfDog">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_H-KcQYmVEeyw1qrEduezjA" name="coatColor">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_H-KcQomVEeyw1qrEduezjA" name="eyeColor">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_H-KcQ4mVEeyw1qrEduezjA" name="lifeSpan">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_H-KcRImVEeyw1qrEduezjA" name="age">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_H-LDUomVEeyw1qrEduezjA" type="_H-Gx4ImVEeyw1qrEduezjA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_H-LqYImVEeyw1qrEduezjA" name="toString" method="_H--UkImVEeyw1qrEduezjA">
+          <ownedParameter xmi:id="_H-LqYYmVEeyw1qrEduezjA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_H-NfkImVEeyw1qrEduezjA" name="School">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_H--7oImVEeyw1qrEduezjA" name="main" specification="_H-OtsImVEeyw1qrEduezjA">
+          <ownedParameter xmi:id="_H--7oYmVEeyw1qrEduezjA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_H--7oomVEeyw1qrEduezjA" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>// Properties of the dogs&#xD;
+		Dog sally = new Dog(&quot;Sally&quot;, &quot;labrador&quot;, &quot;black&quot;, &quot;brown&quot;, 12, 3);&#xD;
+		Dog sam = new Dog(&quot;Sam&quot;, &quot;golden retriever&quot;, &quot;golden&quot;, &quot;brown&quot;, 14, 5);&#xD;
+		Dog hassie = new Dog(&quot;Hassie&quot;, &quot;husky&quot;, &quot;black and white&quot;, &quot;blue&quot;, 13, 10);&#xD;
+&#xD;
+		// Properties of the cats&#xD;
+		Cat kietsie = new Cat(&quot;Kietsie&quot;, &quot;persian&quot;, &quot;white&quot;, &quot;hazel&quot;, 13, &quot;Jana&quot;);&#xD;
+		Cat bennie = new Cat(&quot;Bennie&quot;, &quot;bengal&quot;, &quot;brown&quot;, &quot;green&quot;, 15, &quot;Sarah&quot;);&#xD;
+		Cat samie = new Cat(&quot;Samie&quot;, &quot;siamese&quot;, &quot;silver-gray&quot;, &quot;blue&quot;, 11, &quot;John&quot;);&#xD;
+&#xD;
+		// Display on console all the dogs with their properties&#xD;
+		System.out.println(&quot;Dogs: \n&quot;);&#xD;
+		System.out.println(sally + &quot;\n&quot;);&#xD;
+		System.out.println(sam + &quot;\n&quot;);&#xD;
+		System.out.println(hassie + &quot;\n&quot;);&#xD;
+&#xD;
+		// Display on console all the cats with their properties&#xD;
+		System.out.println(&quot;Cats: \n&quot;);&#xD;
+		System.out.println(kietsie + &quot;\n&quot;);&#xD;
+		System.out.println(bennie + &quot;\n&quot;);&#xD;
+		System.out.println(samie + &quot;\n&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_H-OtsImVEeyw1qrEduezjA" name="main" isStatic="true" method="_H--7oImVEeyw1qrEduezjA">
+          <ownedParameter xmi:id="_H-PUwImVEeyw1qrEduezjA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_H-P70ImVEeyw1qrEduezjA" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_Tfsj4IgjEey4lMkczAkuBw">
+      <eAnnotations xmi:id="_Tf9CkIgjEey4lMkczAkuBw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_H-ZFwImVEeyw1qrEduezjA" base_Element="_H-X3oImVEeyw1qrEduezjA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_H-fzcImVEeyw1qrEduezjA" base_Element="_H-biAImVEeyw1qrEduezjA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_H-hBkImVEeyw1qrEduezjA" base_Element="_H-gagImVEeyw1qrEduezjA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_H-iPsImVEeyw1qrEduezjA" base_Element="_H-hooImVEeyw1qrEduezjA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_H-jd0ImVEeyw1qrEduezjA" base_Element="_H-i2wImVEeyw1qrEduezjA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_H-kr8ImVEeyw1qrEduezjA" base_Element="_H-jd0YmVEeyw1qrEduezjA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_H-nvQImVEeyw1qrEduezjA" base_Element="_H-lTAImVEeyw1qrEduezjA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_H-pkcImVEeyw1qrEduezjA" base_Element="_H-oWUImVEeyw1qrEduezjA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_H-rZoImVEeyw1qrEduezjA" base_Element="_H-qLgImVEeyw1qrEduezjA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_H-snwImVEeyw1qrEduezjA" base_Element="_H-rZoYmVEeyw1qrEduezjA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_H-tO0ImVEeyw1qrEduezjA" base_Element="_H-snwYmVEeyw1qrEduezjA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_H-vEAImVEeyw1qrEduezjA" base_Element="_H-t14ImVEeyw1qrEduezjA"/>
+</xmi:XMI>

@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_5ZXwsIghEey4lMkczAkuBw">
+  <modelElement href="animalClasses.uml#_TefqAIgjEey4lMkczAkuBw"/>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_IMFjgImVEeyw1qrEduezjA" name="School">
+    <modelElement href="animalClasses.uml#_H-NfkImVEeyw1qrEduezjA"/>
+    <visualProperties xmi:id="_IMFjgYmVEeyw1qrEduezjA" position="131.0,82.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_IMFjgomVEeyw1qrEduezjA" label="+"/>
+    <operations xmi:id="_IMFjg4mVEeyw1qrEduezjA" name="main" staticOperation="true">
+      <modelElement href="animalClasses.uml#_H-OtsImVEeyw1qrEduezjA"/>
+      <visibility xmi:id="_IMFjhImVEeyw1qrEduezjA" label="+"/>
+      <cardinality xmi:id="_IMFjhYmVEeyw1qrEduezjA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_IMFjhomVEeyw1qrEduezjA" name="args">
+        <modelElement href="animalClasses.uml#_H-PUwImVEeyw1qrEduezjA"/>
+        <cardinality xmi:id="_IMFjh4mVEeyw1qrEduezjA" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_IMFjiImVEeyw1qrEduezjA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_IKC8IImVEeyw1qrEduezjA" name="Cat">
+    <modelElement href="animalClasses.uml#_H9_dIImVEeyw1qrEduezjA"/>
+    <visualProperties xmi:id="_IKC8IYmVEeyw1qrEduezjA" position="325.0,82.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_IKC8IomVEeyw1qrEduezjA" label="+"/>
+    <attributes xmi:id="_IKC8I4mVEeyw1qrEduezjA" name="name">
+      <modelElement href="animalClasses.uml#_H-X3oImVEeyw1qrEduezjA"/>
+      <stereotypes xmi:id="_IKC8JImVEeyw1qrEduezjA" name="LegacyStyledElement">
+        <modelElement href="animalClasses.uml#_H-ZFwImVEeyw1qrEduezjA"/>
+      </stereotypes>
+      <visibility xmi:id="_IKC8JYmVEeyw1qrEduezjA" label="~"/>
+      <cardinality xmi:id="_IKC8JomVEeyw1qrEduezjA" label="1" max="1" min="1"/>
+      <type xmi:id="_IKC8J4mVEeyw1qrEduezjA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_IKC8KImVEeyw1qrEduezjA" name="typeOfCat">
+      <modelElement href="animalClasses.uml#_H-biAImVEeyw1qrEduezjA"/>
+      <stereotypes xmi:id="_IKC8KYmVEeyw1qrEduezjA" name="LegacyStyledElement">
+        <modelElement href="animalClasses.uml#_H-fzcImVEeyw1qrEduezjA"/>
+      </stereotypes>
+      <visibility xmi:id="_IKC8KomVEeyw1qrEduezjA" label="~"/>
+      <cardinality xmi:id="_IKC8K4mVEeyw1qrEduezjA" label="1" max="1" min="1"/>
+      <type xmi:id="_IKC8LImVEeyw1qrEduezjA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_IKC8LYmVEeyw1qrEduezjA" name="coatColor">
+      <modelElement href="animalClasses.uml#_H-gagImVEeyw1qrEduezjA"/>
+      <stereotypes xmi:id="_IKC8LomVEeyw1qrEduezjA" name="LegacyStyledElement">
+        <modelElement href="animalClasses.uml#_H-hBkImVEeyw1qrEduezjA"/>
+      </stereotypes>
+      <visibility xmi:id="_IKC8L4mVEeyw1qrEduezjA" label="~"/>
+      <cardinality xmi:id="_IKC8MImVEeyw1qrEduezjA" label="1" max="1" min="1"/>
+      <type xmi:id="_IKC8MYmVEeyw1qrEduezjA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_IKC8MomVEeyw1qrEduezjA" name="eyeColor">
+      <modelElement href="animalClasses.uml#_H-hooImVEeyw1qrEduezjA"/>
+      <stereotypes xmi:id="_IKC8M4mVEeyw1qrEduezjA" name="LegacyStyledElement">
+        <modelElement href="animalClasses.uml#_H-iPsImVEeyw1qrEduezjA"/>
+      </stereotypes>
+      <visibility xmi:id="_IKC8NImVEeyw1qrEduezjA" label="~"/>
+      <cardinality xmi:id="_IKC8NYmVEeyw1qrEduezjA" label="1" max="1" min="1"/>
+      <type xmi:id="_IKC8NomVEeyw1qrEduezjA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_IKC8N4mVEeyw1qrEduezjA" name="lifeSpan">
+      <modelElement href="animalClasses.uml#_H-i2wImVEeyw1qrEduezjA"/>
+      <stereotypes xmi:id="_IKC8OImVEeyw1qrEduezjA" name="LegacyStyledElement">
+        <modelElement href="animalClasses.uml#_H-jd0ImVEeyw1qrEduezjA"/>
+      </stereotypes>
+      <visibility xmi:id="_IKC8OYmVEeyw1qrEduezjA" label="~"/>
+      <cardinality xmi:id="_IKC8OomVEeyw1qrEduezjA" label="1" max="1" min="1"/>
+      <type xmi:id="_IKC8O4mVEeyw1qrEduezjA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_IKC8PImVEeyw1qrEduezjA" name="owner">
+      <modelElement href="animalClasses.uml#_H-jd0YmVEeyw1qrEduezjA"/>
+      <stereotypes xmi:id="_IKC8PYmVEeyw1qrEduezjA" name="LegacyStyledElement">
+        <modelElement href="animalClasses.uml#_H-kr8ImVEeyw1qrEduezjA"/>
+      </stereotypes>
+      <visibility xmi:id="_IKC8PomVEeyw1qrEduezjA" label="~"/>
+      <cardinality xmi:id="_IKC8P4mVEeyw1qrEduezjA" label="1" max="1" min="1"/>
+      <type xmi:id="_IKC8QImVEeyw1qrEduezjA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_IKDjMImVEeyw1qrEduezjA" name="Cat">
+      <modelElement href="animalClasses.uml#_H-DHgImVEeyw1qrEduezjA"/>
+      <keywords xmi:id="_IKDjMYmVEeyw1qrEduezjA" keyword="create"/>
+      <visibility xmi:id="_IKDjMomVEeyw1qrEduezjA" label="+"/>
+      <cardinality xmi:id="_IKDjM4mVEeyw1qrEduezjA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_IKDjNImVEeyw1qrEduezjA">
+        <modelElement href="animalClasses.uml#_H-EVo4mVEeyw1qrEduezjA"/>
+        <type xmi:id="_IKDjNYmVEeyw1qrEduezjA" name="Cat">
+          <modelElement href="animalClasses.uml#_H9_dIImVEeyw1qrEduezjA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_IKDjNomVEeyw1qrEduezjA" name="name">
+        <modelElement href="animalClasses.uml#_H-DHgYmVEeyw1qrEduezjA"/>
+        <cardinality xmi:id="_IKDjN4mVEeyw1qrEduezjA" label="1" max="1" min="1"/>
+        <type xmi:id="_IKDjOImVEeyw1qrEduezjA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IKDjOYmVEeyw1qrEduezjA" name="typeOfCat">
+        <modelElement href="animalClasses.uml#_H-DukImVEeyw1qrEduezjA"/>
+        <cardinality xmi:id="_IKDjOomVEeyw1qrEduezjA" label="1" max="1" min="1"/>
+        <type xmi:id="_IKDjO4mVEeyw1qrEduezjA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IKDjPImVEeyw1qrEduezjA" name="coatColor">
+        <modelElement href="animalClasses.uml#_H-DukYmVEeyw1qrEduezjA"/>
+        <cardinality xmi:id="_IKDjPYmVEeyw1qrEduezjA" label="1" max="1" min="1"/>
+        <type xmi:id="_IKDjPomVEeyw1qrEduezjA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IKDjP4mVEeyw1qrEduezjA" name="eyeColor">
+        <modelElement href="animalClasses.uml#_H-DukomVEeyw1qrEduezjA"/>
+        <cardinality xmi:id="_IKDjQImVEeyw1qrEduezjA" label="1" max="1" min="1"/>
+        <type xmi:id="_IKDjQYmVEeyw1qrEduezjA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IKDjQomVEeyw1qrEduezjA" name="lifeSpan">
+        <modelElement href="animalClasses.uml#_H-Duk4mVEeyw1qrEduezjA"/>
+        <cardinality xmi:id="_IKDjQ4mVEeyw1qrEduezjA" label="1" max="1" min="1"/>
+        <type xmi:id="_IKDjRImVEeyw1qrEduezjA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IKDjRYmVEeyw1qrEduezjA" name="owner">
+        <modelElement href="animalClasses.uml#_H-EVoImVEeyw1qrEduezjA"/>
+        <cardinality xmi:id="_IKDjRomVEeyw1qrEduezjA" label="1" max="1" min="1"/>
+        <type xmi:id="_IKDjR4mVEeyw1qrEduezjA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_IKDjSImVEeyw1qrEduezjA" name="toString">
+      <modelElement href="animalClasses.uml#_H-E8sImVEeyw1qrEduezjA"/>
+      <visibility xmi:id="_IKDjSYmVEeyw1qrEduezjA" label="+"/>
+      <cardinality xmi:id="_IKDjSomVEeyw1qrEduezjA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_IKDjS4mVEeyw1qrEduezjA">
+        <modelElement href="animalClasses.uml#_H-FjwImVEeyw1qrEduezjA"/>
+        <type xmi:id="_IKDjTImVEeyw1qrEduezjA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_IL0dwImVEeyw1qrEduezjA" name="Dog">
+    <modelElement href="animalClasses.uml#_H-Gx4ImVEeyw1qrEduezjA"/>
+    <visualProperties xmi:id="_IL0dwYmVEeyw1qrEduezjA" position="979.0,83.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_IL0dwomVEeyw1qrEduezjA" label="+"/>
+    <attributes xmi:id="_IL0dw4mVEeyw1qrEduezjA" name="name">
+      <modelElement href="animalClasses.uml#_H-lTAImVEeyw1qrEduezjA"/>
+      <stereotypes xmi:id="_IL0dxImVEeyw1qrEduezjA" name="LegacyStyledElement">
+        <modelElement href="animalClasses.uml#_H-nvQImVEeyw1qrEduezjA"/>
+      </stereotypes>
+      <visibility xmi:id="_IL0dxYmVEeyw1qrEduezjA" label="~"/>
+      <cardinality xmi:id="_IL0dxomVEeyw1qrEduezjA" label="1" max="1" min="1"/>
+      <type xmi:id="_IL0dx4mVEeyw1qrEduezjA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_IL0dyImVEeyw1qrEduezjA" name="typeOfDog">
+      <modelElement href="animalClasses.uml#_H-oWUImVEeyw1qrEduezjA"/>
+      <stereotypes xmi:id="_IL0dyYmVEeyw1qrEduezjA" name="LegacyStyledElement">
+        <modelElement href="animalClasses.uml#_H-pkcImVEeyw1qrEduezjA"/>
+      </stereotypes>
+      <visibility xmi:id="_IL0dyomVEeyw1qrEduezjA" label="~"/>
+      <cardinality xmi:id="_IL0dy4mVEeyw1qrEduezjA" label="1" max="1" min="1"/>
+      <type xmi:id="_IL0dzImVEeyw1qrEduezjA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_IL0dzYmVEeyw1qrEduezjA" name="coatColor">
+      <modelElement href="animalClasses.uml#_H-qLgImVEeyw1qrEduezjA"/>
+      <stereotypes xmi:id="_IL0dzomVEeyw1qrEduezjA" name="LegacyStyledElement">
+        <modelElement href="animalClasses.uml#_H-rZoImVEeyw1qrEduezjA"/>
+      </stereotypes>
+      <visibility xmi:id="_IL0dz4mVEeyw1qrEduezjA" label="~"/>
+      <cardinality xmi:id="_IL0d0ImVEeyw1qrEduezjA" label="1" max="1" min="1"/>
+      <type xmi:id="_IL0d0YmVEeyw1qrEduezjA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_IL0d0omVEeyw1qrEduezjA" name="eyeColor">
+      <modelElement href="animalClasses.uml#_H-rZoYmVEeyw1qrEduezjA"/>
+      <stereotypes xmi:id="_IL0d04mVEeyw1qrEduezjA" name="LegacyStyledElement">
+        <modelElement href="animalClasses.uml#_H-snwImVEeyw1qrEduezjA"/>
+      </stereotypes>
+      <visibility xmi:id="_IL0d1ImVEeyw1qrEduezjA" label="~"/>
+      <cardinality xmi:id="_IL0d1YmVEeyw1qrEduezjA" label="1" max="1" min="1"/>
+      <type xmi:id="_IL0d1omVEeyw1qrEduezjA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_IL0d14mVEeyw1qrEduezjA" name="lifeSpan">
+      <modelElement href="animalClasses.uml#_H-snwYmVEeyw1qrEduezjA"/>
+      <stereotypes xmi:id="_IL0d2ImVEeyw1qrEduezjA" name="LegacyStyledElement">
+        <modelElement href="animalClasses.uml#_H-tO0ImVEeyw1qrEduezjA"/>
+      </stereotypes>
+      <visibility xmi:id="_IL0d2YmVEeyw1qrEduezjA" label="~"/>
+      <cardinality xmi:id="_IL0d2omVEeyw1qrEduezjA" label="1" max="1" min="1"/>
+      <type xmi:id="_IL0d24mVEeyw1qrEduezjA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_IL0d3ImVEeyw1qrEduezjA" name="age">
+      <modelElement href="animalClasses.uml#_H-t14ImVEeyw1qrEduezjA"/>
+      <stereotypes xmi:id="_IL0d3YmVEeyw1qrEduezjA" name="LegacyStyledElement">
+        <modelElement href="animalClasses.uml#_H-vEAImVEeyw1qrEduezjA"/>
+      </stereotypes>
+      <visibility xmi:id="_IL0d3omVEeyw1qrEduezjA" label="~"/>
+      <cardinality xmi:id="_IL1E0ImVEeyw1qrEduezjA" label="1" max="1" min="1"/>
+      <type xmi:id="_IL1E0YmVEeyw1qrEduezjA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_IL1E0omVEeyw1qrEduezjA" name="Dog">
+      <modelElement href="animalClasses.uml#_H-J1MImVEeyw1qrEduezjA"/>
+      <keywords xmi:id="_IL1E04mVEeyw1qrEduezjA" keyword="create"/>
+      <visibility xmi:id="_IL1E1ImVEeyw1qrEduezjA" label="+"/>
+      <cardinality xmi:id="_IL1E1YmVEeyw1qrEduezjA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_IL1E1omVEeyw1qrEduezjA">
+        <modelElement href="animalClasses.uml#_H-LDUomVEeyw1qrEduezjA"/>
+        <type xmi:id="_IL1E14mVEeyw1qrEduezjA" name="Dog">
+          <modelElement href="animalClasses.uml#_H-Gx4ImVEeyw1qrEduezjA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_IL1E2ImVEeyw1qrEduezjA" name="name">
+        <modelElement href="animalClasses.uml#_H-J1MYmVEeyw1qrEduezjA"/>
+        <cardinality xmi:id="_IL1E2YmVEeyw1qrEduezjA" label="1" max="1" min="1"/>
+        <type xmi:id="_IL1E2omVEeyw1qrEduezjA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IL1E24mVEeyw1qrEduezjA" name="typeOfDog">
+        <modelElement href="animalClasses.uml#_H-KcQImVEeyw1qrEduezjA"/>
+        <cardinality xmi:id="_IL1E3ImVEeyw1qrEduezjA" label="1" max="1" min="1"/>
+        <type xmi:id="_IL1E3YmVEeyw1qrEduezjA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IL1E3omVEeyw1qrEduezjA" name="coatColor">
+        <modelElement href="animalClasses.uml#_H-KcQYmVEeyw1qrEduezjA"/>
+        <cardinality xmi:id="_IL1E34mVEeyw1qrEduezjA" label="1" max="1" min="1"/>
+        <type xmi:id="_IL1E4ImVEeyw1qrEduezjA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IL1E4YmVEeyw1qrEduezjA" name="eyeColor">
+        <modelElement href="animalClasses.uml#_H-KcQomVEeyw1qrEduezjA"/>
+        <cardinality xmi:id="_IL1E4omVEeyw1qrEduezjA" label="1" max="1" min="1"/>
+        <type xmi:id="_IL1E44mVEeyw1qrEduezjA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IL1E5ImVEeyw1qrEduezjA" name="lifeSpan">
+        <modelElement href="animalClasses.uml#_H-KcQ4mVEeyw1qrEduezjA"/>
+        <cardinality xmi:id="_IL1E5YmVEeyw1qrEduezjA" label="1" max="1" min="1"/>
+        <type xmi:id="_IL1E5omVEeyw1qrEduezjA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_IL1E54mVEeyw1qrEduezjA" name="age">
+        <modelElement href="animalClasses.uml#_H-KcRImVEeyw1qrEduezjA"/>
+        <cardinality xmi:id="_IL1E6ImVEeyw1qrEduezjA" label="1" max="1" min="1"/>
+        <type xmi:id="_IL1E6YmVEeyw1qrEduezjA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_IL1E6omVEeyw1qrEduezjA" name="toString">
+      <modelElement href="animalClasses.uml#_H-LqYImVEeyw1qrEduezjA"/>
+      <visibility xmi:id="_IL1E64mVEeyw1qrEduezjA" label="+"/>
+      <cardinality xmi:id="_IL1E7ImVEeyw1qrEduezjA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_IL1E7YmVEeyw1qrEduezjA">
+        <modelElement href="animalClasses.uml#_H-LqYYmVEeyw1qrEduezjA"/>
+        <type xmi:id="_IL1E7omVEeyw1qrEduezjA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
